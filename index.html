@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Olle App – Die Gaffel App</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+    }
+
+    .download-box {
+      margin: 2rem 0;
+      padding: 1rem;
+      border: 1px solid #444;
+      background-color: #111;
+      border-radius: 8px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #fff;
+      color: #000;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    img.qr {
+      margin-top: 1rem;
+      width: 160px;
+      height: 160px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Olle App – Die Gaffel-App ist da!</h1>
+    <p>
+      Im Rahmen einer Bachelorarbeit eines Mitarbeiters der Sportbar <strong>Olles Gaffel</strong> in Regensburg
+      wurde diese App zur Kundeninteraktion entwickelt. Sie befindet sich aktuell in der Testphase und ist
+      daher zunächst nur für <strong>Android</strong> verfügbar.
+    </p>
+    <p>
+      Wir freuen uns, wenn ihr die App ausprobiert und später an einer kurzen Umfrage zur Bachelorarbeit teilnehmt.
+    </p>
+    <div class="download-box">
+      <p><strong>App jetzt herunterladen (nur Android):</strong></p>
+      <a class="button" href="https://expo.dev/accounts/clownchen/projects/OlleApp/builds/f7852a94-1e98-4c0e-9308-4062c7eade8f" target="_blank">
+        Download-Link öffnen
+      </a>
+    </div>
+    <p>Oder QR-Code scannen:</p>
+    <img class="qr" src="qr-code.png" alt="QR-Code zum Download der Olle App"/>
+  </div>
+</body>
+</html>
